@@ -119,7 +119,9 @@ void menu()
  */
 void launchMethod()
 {
-    Console.Clear();
+    //Throws an error if you are debugging this program using Visual Studio Code's Debug Console (instead of Command Prompt),
+    //So I commented it out. If you're using Visual Studio, feel free to uncomment this.
+    //Console.Clear();
 
     switch (menuChoice)
     {
